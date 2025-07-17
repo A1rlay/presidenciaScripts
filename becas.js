@@ -5,7 +5,7 @@ import fetch from "node-fetch";
 import XLSX from "xlsx";
 
 // Obtencion de token, archivo xlsx y url de la API
-const token = "ea8420e4f516eeb8a06837b2e395f928";
+const token = //token
 
 const file = "./becas_total.xlsx";
 const file2 = "./becas_150725.xlsx";
