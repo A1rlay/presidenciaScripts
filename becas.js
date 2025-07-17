@@ -167,7 +167,7 @@ for (const row of data2) {
             apellidoPaterno: row["APELLIDO PATERNO"] || "-",
             apellidoMaterno: row["APELLIDO MATERNO"] || "-",
             fechaNacimiento: fnacimiento,
-            direccion: row["DIRECCION"] || "",
+            direccion: row["DIRECCION"] || "", // IMPORTANTE modificar el nombre de DIRECCION en el xlsx y quitarle el acento en la o
             colonia: row["COLONIA"] || "",
             telefono: tel,
             idGenero: genero,
